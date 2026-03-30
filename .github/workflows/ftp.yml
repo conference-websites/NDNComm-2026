@@ -2,7 +2,7 @@ name: Build & Deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   schedule:
     # re-build (e.g., for program changes) every hour
     - cron:  '30 * * * *'
