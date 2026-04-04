@@ -8,6 +8,6 @@ title: Registration Information
 
 Registration for NDNComm'2026 is free for both in-person and remote.  Please register as soon as you can, so we can properly accommodate everybody.
 
-[Online registration](#){: data-role="button" class="button" }
+[Online registration](https://www.eventbrite.com/e/1986740507339?aff=oddtdtcreator){: data-role="button" class="button" }
 
 In case of problems with registration or billing, please contact Organizing Chairs.
