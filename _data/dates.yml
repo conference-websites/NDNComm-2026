@@ -8,8 +8,8 @@
 
 main-submission:
   track: main
-  info: "Abstract Submission"
-  date: "April 31, 2026"
+  info: "Submission Deadline"
+  date: "May 4, 2026"
   important: true
 
 conference:

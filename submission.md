@@ -6,6 +6,10 @@ title: Submission Instructions
 
 ## {{ page.title }}
 
-Submission for presentations (short or long) and posters/demos should include a title and a short abstract that provides a brief description of the presentation/poster/demo's content:
+We invite proposals for presentations and panels. Submissions should consist of a one-page abstract including title and authors.
 
-Please submit your abstract at this site: [https://ndncomm2026.hotcrp.named-data.net/](https://ndncomm2026.hotcrp.named-data.net/)
+Please indicate the submission type by beginning the title with one of: `Presentation:` or `Panel:`.
+
+[Submit via HotCRP](https://ndncomm2026.hotcrp.named-data.net/){: data-role="button" class="button" }
+
+Submission deadline: **May 4, 2026**. Late submissions may be considered if space permits.
