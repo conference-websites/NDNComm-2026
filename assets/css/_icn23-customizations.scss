@@ -481,6 +481,95 @@ table tr {
 	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.3);
 }
 
+/* NDNComm 2026 program schedule */
+
+.content-primary .program-timezone {
+    margin: 1em 0 1.25em 0;
+    font-size: 1.05em;
+}
+
+.content-primary .program-schedule {
+    margin: 1em 0 2em 0;
+}
+
+.content-primary .program-day {
+    margin-bottom: 2em;
+}
+
+.content-primary .program-day h3 {
+    margin: 1.4em 0 0 0;
+    padding: 0.45em 0.65em;
+    background: $site-colors-highlightB;
+    color: #ffffff;
+    border-radius: 6px 6px 0 0;
+    box-shadow: none;
+    font-size: 1.25em;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-shadow: none;
+}
+
+.content-primary .program-slot {
+    display: grid;
+    grid-template-columns: minmax(7.5em, 10em) 1fr;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    background: #ffffff;
+}
+
+.content-primary .program-slot-time {
+    padding: 1em;
+    background: #f3f6f9;
+    color: $site-colors-highlightB;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.content-primary .program-slot-body {
+    padding: 0.9em 1em;
+}
+
+.content-primary .program-slot-body h4 {
+    margin: 0 0 0.55em 0;
+    padding: 0;
+    background: transparent;
+    color: $site-colors-highlightB;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 1.05em;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.3em;
+    text-shadow: none;
+}
+
+.content-primary .program-talks {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content-primary .program-talks li {
+    margin: 0.35em 0;
+    line-height: 1.35em;
+}
+
+@media (max-width: 640px) {
+    .content-primary .program-slot {
+        display: block;
+    }
+
+    .content-primary .program-slot-time {
+        padding: 0.75em 1em 0.25em 1em;
+        background: #ffffff;
+    }
+
+    .content-primary .program-slot-body {
+        padding-top: 0.25em;
+    }
+}
+
 /* miscelaneous controls (hotel page, roomshare, etc.) */
 
 .content-primary .hotel-header {

@@ -16,39 +16,69 @@ Q&A and discussions are held via a shared workspace called Ownly. An archive of 
 </p>
 
 
-{% comment %}
-Kindly note that the schedule below is tentative and subject to updates.
-{% endcomment %}
+<p class="program-timezone"><b>All times PDT.</b></p>
 
-{% comment %}
+<div class="program-schedule">
+  <section class="program-day" id="day-0">
+    <h3>Day 0: Monday, May 18, 2026</h3>
 
-<p style="text-align: center;">
-  <a data-ajax="false" href="{{ site.data['program-at-glance'] }}.pdf?digest={{ site.data['program-at-glance-digest'] }}">Conference Schedule at a Glance
-    <img src="{{ site.data['program-at-glance'] }}.png?digest={{ site.data['program-at-glance-digest'] }}" style="max-width: 100%" /></a>
-</p>
+    <div class="program-slot">
+      <div class="program-slot-time">07:00-08:30</div>
+      <div class="program-slot-body">
+        <h4>Session 1: Data-Centric Networking</h4>
+        <ul class="program-talks">
+          <li>From SRM to NDN: Three Decades of Lessons in Data-Centric Networking</li>
+          <li>ICN+SCION global name-based network service</li>
+          <li>Architecting a Scalable Routing and Forwarding system for NDN</li>
+        </ul>
+      </div>
+    </div>
 
+    <div class="program-slot">
+      <div class="program-slot-time">08:45-10:15</div>
+      <div class="program-slot-body">
+        <h4>Session 2: Security and Access Control</h4>
+        <ul class="program-talks">
+          <li>Decentralized Access Control Library for NDN</li>
+          <li>Enhancing NAC-ABE to Support Access Control for mHealth Applications and Beyond</li>
+          <li>Message Layer Security in Ownly Group Encryption</li>
+        </ul>
+      </div>
+    </div>
 
+    <div class="program-slot">
+      <div class="program-slot-time">10:30-12:00</div>
+      <div class="program-slot-body">
+        <h4>Session 3: NDN Security in IoT Area</h4>
+        <ul class="program-talks">
+          <li>Reclaiming Digital Autonomy: A Systematic Review of NDN Applications in IoT Systems</li>
+          <li>TrustNG: Using Named Data Networking as a Zero-Trust Overlay for Cloud-Native 5G Core Networks</li>
+          <li>MGuard: Development Updates</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-<h3>Schedule</h3>
-{% endcomment %}
+  <section class="program-day" id="day-1">
+    <h3>Day 1: Tuesday, May 19, 2026</h3>
 
-<div id="prog_ctrl" data-role="navbar">
-  <ul>
-    <li><a href="#" onClick="filter('thursday');">Thursday</a></li>
-    <li><a href="#" onClick="filter('friday');">Friday</a></li>
-    <li><a href="#" onClick="filter('all');" class="ui-btn-active ui-state-persist roundright">All Days</a></li>
-  </ul>
+    <div class="program-slot">
+      <div class="program-slot-time">07:00-08:00</div>
+      <div class="program-slot-body">
+        <h4>Panel</h4>
+      </div>
+    </div>
+
+    <div class="program-slot">
+      <div class="program-slot-time">08:15-09:45</div>
+      <div class="program-slot-body">
+        <h4>Session 4: Storage and Distributed Systems</h4>
+        <ul class="program-talks">
+          <li>NDN Service Framework</li>
+          <li>Resilient In-Network Data Storage in NDN</li>
+          <li>NDN-CloudSync: A Secure Storage Service Running on Multiple Clouds</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </div>
-
-{% include program-online.html type="program" %}
-
-
-{% comment %}
-
-  <h3>List of Accepted Posters</h3>
-  {% include program-online.html type="posters" %}
-
-  <h3>List of Accepted Demos</h3>
-  {% include program-online.html type="demos" %}
-
-{% endcomment %}

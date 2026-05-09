@@ -2,9 +2,9 @@
   url: /
   icon: fa-home
 
-#- name: ">> Program <<"
-#  url: /program.html
-#  icon: fa-calendar
+- name: "Program"
+  url: /program.html
+  icon: fa-calendar
 
 - name: "Call for Participation"
   icon: fa-bullhorn
