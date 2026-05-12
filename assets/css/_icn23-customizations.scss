@@ -756,6 +756,22 @@ table tr {
     border-left: 4px solid var(--program-blue);
 }
 
+.content-primary .program-slot-break {
+    background: var(--program-soft);
+}
+
+.content-primary .program-slot-break .program-slot-time,
+.content-primary .program-slot-break .program-slot-body {
+    padding-top: 0.72rem;
+    padding-bottom: 0.72rem;
+}
+
+.content-primary .program-slot-break .program-slot-body h4 {
+    margin-bottom: 0;
+    color: var(--program-muted);
+    font-size: 1rem;
+}
+
 .content-primary .program-slot-time {
     display: flex;
     flex-direction: column;
@@ -822,6 +838,18 @@ table tr {
     letter-spacing: 0;
     line-height: 1.28;
     overflow-wrap: break-word;
+}
+
+.content-primary .program-panel-moderator {
+    margin: 0 0 0.6rem 0;
+    color: var(--program-ink);
+    line-height: 1.42;
+}
+
+.content-primary .program-panel-description p {
+    margin: 0.6rem 0 0 0;
+    color: #2d3748;
+    line-height: 1.5;
 }
 
 .content-primary .program-talks {
