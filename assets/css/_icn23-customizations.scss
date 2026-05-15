@@ -824,11 +824,17 @@ table tr {
     line-height: 1.15;
 }
 
-.content-primary .program-session-chair,
 .content-primary .program-panel-moderator,
 .content-primary .program-panelists {
     margin: 0;
     padding: 0.85rem 1.1rem 0 1.1rem;
+    color: var(--program-ink);
+    line-height: 1.42;
+}
+
+.content-primary .program-session-chair {
+    margin: 0;
+    padding: 0.95rem 1.4rem 0 1.65rem;
     color: var(--program-ink);
     line-height: 1.42;
 }
@@ -854,7 +860,7 @@ table tr {
 }
 
 .content-primary .program-talks li {
-    margin: 0.42rem 0;
+    margin: 0.55rem 0;
     padding-left: 0;
     color: #2d3748;
     line-height: 1.42;
@@ -873,7 +879,7 @@ table tr {
 
 .content-primary .program-talk-speakers {
     display: block;
-    margin-top: 0.12rem;
+    margin-top: 0.16rem;
     color: var(--program-muted);
     font-size: 0.9rem;
     font-weight: 600;
